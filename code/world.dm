@@ -323,7 +323,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<h1><font color=green>Gamma Station 13 - RP</font></h1>";
 	s += "Custom Map/Code, 24/7, BS12, EU/UK.<br>"
-	s += "| <a href=http://goo.gl/JFra0l>Website</a>" //Change this to wherever you want the hub to link to.
+	s += "| <a href=http://goo.gl/JFra0l>Website</a> | " //Change this to wherever you want the hub to link to.
 	s += "<a href=http://goo.gl/PJItxM>Forums</a>"
 	s += " | "
 	s += "<a href=http://goo.gl/NZsjVd>TS3</a> |"
