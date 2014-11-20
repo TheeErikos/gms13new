@@ -78,6 +78,7 @@
 	var/banappeals
 	var/wikiurl = "http://baystation12.net/wiki"
 	var/forumurl = "http://baystation12.net/forums/"
+	var/rulesurl
 
 	var/media_base_url = "http://nanotrasen.se/media" // http://ss13.nexisonline.net/media
 
@@ -308,6 +309,9 @@
 
 				if ("wikiurl")
 					config.wikiurl = value
+
+				if ("rulesurl")
+					config.rulesurl = value
 
 				if ("forumurl")
 					config.forumurl = value

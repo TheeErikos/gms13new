@@ -31,24 +31,6 @@ var/list/department_radio_keys = list(
 	  ":T" = "Syndicate",	"#T" = "Syndicate",		".T" = "Syndicate",
 	  ":U" = "Supply",		"#U" = "Supply",		".U" = "Supply",
 	  ":G" = "changeling",	"#G" = "changeling",	".G" = "changeling"
-	  
-	//kinda localization -- rastaf0
-	//same keys as above, but on russian keyboard layout. This file uses cp1251 as encoding.
-	  ":ê" = "right hand",	"#ê" = "right hand",    ".ê" = "right hand",
-	  ":ä" = "left hand",   "#ä" = "left hand",     ".ä" = "left hand",
-	  ":ø" = "intercom",    "#ø" = "intercom",      ".ø" = "intercom",
-	  ":ð" = "department",  "#ð" = "department",    ".ð" = "department",
-	  ":ñ" = "Command",     "#ñ" = "Command",       ".ñ" = "Command",
-	  ":ò" = "Science",     "#ò" = "Science",       ".ò" = "Science",
-	  ":ü" = "Medical",     "#ü" = "Medical",       ".ü" = "Medical",
-	  ":ó" = "Engineering", "#ó" = "Engineering",   ".ó" = "Engineering",
-	  ":û" = "Security",    "#û" = "Security",      ".û" = "Security",
-	  ":ö" = "whisper",     "#ö" = "whisper",       ".ö" = "whisper",
-	  ":è" = "binary",      "#è" = "binary",        ".è" = "binary",
-	  ":ô" = "alientalk",   "#ô" = "alientalk",     ".ô" = "alientalk",
-	  ":å" = "Syndicate",   "#å" = "Syndicate",     ".å" = "Syndicate",
-	  ":é" = "Supply",      "#é" = "Supply",        ".é" = "Supply",
-	  ":ï" = "changeling",  "#ï" = "changeling",    ".ï" = "changeling"
 )
 
 /mob/living/proc/binarycheck()

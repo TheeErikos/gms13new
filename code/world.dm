@@ -2,7 +2,7 @@
 	mob = /mob/new_player
 	turf = /turf/space
 	area = /area
-	view = "17x17"
+	view = "14x14"
 	cache_lifespan = 0	//stops player uploaded stuff from being kept in the rsc past the current session
 
 
@@ -321,13 +321,13 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>[station_name()]</b>";
-	s += " ("
-	s += "<a href=\"http://nanotrasen.se/phpBB3/index.php\">" //Change this to wherever you want the hub to link to.
-	s += "[game_version]"
-	s += "</a>"
-	s += ")"
-	s += "<br>The Perfect Mix of RP & Action<br>"
+	s += "<h1><font color=green>Gamma Station 13 - RP</font></h1>";
+	s += "Custom Map/Code, 24/7, BS12, EU/UK.<br>"
+	s += "| <a href=http://goo.gl/JFra0l>Website</a>" //Change this to wherever you want the hub to link to.
+	s += "<a href=http://goo.gl/PJItxM>Forums</a>"
+	s += " | "
+	s += "<a href=http://goo.gl/NZsjVd>TS3</a> |"
+	s += "<img src=http://i.imgur.com/pxgwDW2.gif><br>"
 
 
 
