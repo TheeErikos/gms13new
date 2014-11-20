@@ -1,0 +1,31 @@
+
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<head>
+		<script type='text/javascript'>
+			function receiveUpdateData(jsonString)
+			{
+				// We need both jQuery and NanoUpdate to be able to recieve data
+				// At the moment any data received before those libraries are loaded will be lost
+				if (typeof NanoUpdate != 'undefined' && typeof jQuery != 'undefined')
+				{
+					NanoUpdate.receiveUpdateData(jsonString);
+				}
+			}
+		</script>
+		<script type='text/javascript' src='libraries.min.js'></script> <script type='text/javascript' src='nano_config.js'></script> <script type='text/javascript' src='nano_update.js'></script> <script type='text/javascript' src='nano_base_helpers.js'></script> <link rel='stylesheet' type='text/css' href='shared.css'> <link rel='stylesheet' type='text/css' href='icons.css'> 
+	</head>
+	<body scroll=auto data-url-parameters='{"src":"[0x21013192]"}' data-template-data='{"main":"smes.tmpl"}' data-initial-data='{"nameTag":null,"storedCapacity":17.30000114440918,"charging":0,"chargeMode":0,"chargeLevel":50000,"chargeMax":200000,"outputOnline":1,"outputLevel":50000,"outputMax":200000,"outputLoad":7101,"ui":{"status":2,"user":{"name":"Captain"}}}'>
+		<div id='uiWrapper'>
+			<div id='uiTitleWrapper'><div id='uiStatusIcon' class='icon24 uiStatusGood'></div><div id='uiTitle'>SMES Power Storage Unit</div><div id='uiTitleFluff'></div></div>
+			<div id='uiContent'>
+				<noscript><div id='uiNoJavaScript'>Your browser does not have JavaScript enabled. Please enable JavaScript, then restart SS13.</div></noscript>
+	
+	<div id='mainTemplate'></div>
+	
+			</div>
+		</div>
+	</body>
+</html>
+	
