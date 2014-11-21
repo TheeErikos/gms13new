@@ -122,7 +122,7 @@
 				if(chunkGenerated(x, y, T.z))
 					var/datum/visibility_chunk/chunk = getChunk(x, y, T.z)
 					if(choice == 0)
-						// Remove the viewpoint.
+						// Remove the point.
 						chunk.viewpoints -= c
 					else if(choice == 1)
 						// You can't have the same viewpoint in the list twice.

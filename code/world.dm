@@ -2,7 +2,7 @@
 	mob = /mob/new_player
 	turf = /turf/space
 	area = /area
-	view = "17x17"
+	view = "15x15"
 	cache_lifespan = 0	//stops player uploaded stuff from being kept in the rsc past the current session
 
 
@@ -322,7 +322,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		s += "<b>[config.server_name]</b> &#8212; "
 
 	s += "<h1><font color=green>Gamma Station 13 - RP</font></h1>";
-	s += "Custom Map/Code, 24/7, BS12, EU/UK.<br>"
+	s += "Custom Map/Code, 24/7, EU/UK.<br>"
 	s += "| <a href=http://goo.gl/JFra0l>Website</a> | " //Change this to wherever you want the hub to link to.
 	s += "<a href=http://goo.gl/PJItxM>Forums</a>"
 	s += " | "
