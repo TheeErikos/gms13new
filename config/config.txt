@@ -116,7 +116,7 @@ ALLOW_ADMIN_OOCCOLOR
 # ALLOW_METADATA
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initate a mode-change start
 #ALLOW_VOTE_MODE
@@ -154,7 +154,7 @@ GUEST_JOBBAN
 GUEST_BAN
 ## Set to jobban everyone who's key is not listed in data/whitelist.txt from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Uncomment to 1 to jobban, leave commented out to allow these positions for everyone (but see GUEST_JOBBAN above and regular jobbans)
-# USEWHITELIST
+USEWHITELIST
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 # SERVER ss13.example.com:2506
@@ -213,7 +213,7 @@ ASSISTANT_RATIO 2
 
 ## Remove the # to make rounds which end instantly (Rev, Wizard, Malf) to continue until the shuttle is called or the station is nuked.
 ## Malf and Rev will let the shuttle be called when the antags/protags are dead.
-#CONTINUOUS_ROUNDS
+CONTINUOUS_ROUNDS
 
 ## Uncomment to restrict non-admins from using humanoid alien races
 USEALIENWHITELIST
@@ -228,7 +228,7 @@ RESPAWN_AS_MOMMI
 #NO_RESPAWN_AS_MOUSE
 
 ##Remove the # to let ghosts spin chairs
-#GHOST_INTERACTION
+GHOST_INTERACTION
 
 ## Uncomment to enable sending data to the IRC bot.
 #USE_IRC_BOT
@@ -267,10 +267,10 @@ ALERT_RED_DOWNTO The self-destruct mechanism has been deactivated, there is stil
 ALERT_DELTA The station's self-destruct mechanism has been engaged. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.
 
 ## Add a # infront of this if you want to use the SQL based admin system, the legacy system uses admins.txt. You need to set up your database to use the SQL based system.
-ADMIN_LEGACY_SYSTEM
+#ADMIN_LEGACY_SYSTEM
 
 ## Add a # infront of this if you want to use the SQL based banning system. The legacy systems use the files in the data folder. You need to set up your database to use the SQL based system.
-BAN_LEGACY_SYSTEM
+#BAN_LEGACY_SYSTEM
 
 ## Add a # here if you wish to use the setup where jobs have more access. This is intended for servers with low populations - where there are not enough players to fill all roles, so players need to do more than just one job. Also for servers where they don't want people to hide in their own departments.
 JOBS_HAVE_MINIMAL_ACCESS

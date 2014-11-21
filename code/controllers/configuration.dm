@@ -38,8 +38,8 @@
 	var/continous_rounds = 0			// Gamemodes which end instantly will instead keep on going until the round ends by escape shuttle or nuke.
 	var/allow_Metadata = 0				// Metadata is supported.
 	var/popup_admin_pm = 0				//adminPMs to non-admins show in a pop-up 'reply' window when set to 1.
-	var/Ticklag = 0.9
-	var/Tickcomp = 0
+	var/Ticklag = 0.5
+	var/Tickcomp = 1
 	var/socket_talk	= 0					// use socket_talk to communicate with other processes
 	var/list/resource_urls = null
 	var/antag_hud_allowed = 0      // Ghosts can turn on Antagovision to see a HUD of who is the bad guys this round.
@@ -54,10 +54,10 @@
 	var/hostedby = null
 	var/respawn = 0
 	var/guest_jobban = 1
-	var/usewhitelist = 0
+	var/usewhitelist = 1
 	var/mods_are_mentors = 0
 	var/kick_inactive = 0				//force disconnect for inactive players
-	var/load_jobs_from_txt = 0
+	var/load_jobs_from_txt = 1
 	var/ToRban = 0
 	var/automute_on = 0					//enables automuting/spam prevention
 	var/jobs_have_minimal_access = 0	//determines whether jobs use minimal access or expanded access.
@@ -70,7 +70,7 @@
 	var/allow_drone_spawn = 1				//assuming the admin allow them to.
 	var/drone_build_time = 1200				//A drone will become available every X ticks since last drone spawn. Default is 2 minutes.
 
-	var/usealienwhitelist = 0
+	var/usealienwhitelist = 1
 	var/limitalienplayers = 0
 	var/alien_to_human_ratio = 0.5
 
@@ -97,8 +97,8 @@
 
 	//game_options.txt configs
 
-	var/health_threshold_crit = 0
-	var/health_threshold_dead = -100
+	var/health_threshold_crit = -50
+	var/health_threshold_dead = -150
 
 	var/organ_health_multiplier = 1
 	var/organ_regeneration_multiplier = 1
@@ -112,7 +112,7 @@
 
 	//Used for modifying movement speed for mobs.
 	//Unversal modifiers
-	var/run_speed = 0
+	var/run_speed = 1
 	var/walk_speed = 0
 
 	//Mob specific modifiers. NOTE: These will affect different mob types in different ways
