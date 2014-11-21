@@ -100,13 +100,13 @@
 #define ui_alien_oxygen "14:28,11:25"
 
 //Middle right (status indicators)
-#define ui_nutrition "16:28,5:11"
-#define ui_temp "16:28,6:13"
-#define ui_health "16:28,7:15"
-#define ui_internal "16:28,8:17"
+#define ui_nutrition "14:28,5:11"
+#define ui_temp "14:28,6:13"
+#define ui_health "14:28,7:15"
+#define ui_internal "14:28,8:17"
 									//borgs
-#define ui_borg_health "16:28,6:13" //borgs have the health display where humans have the pressure damage indicator.
-#define ui_alien_health "16:28,6:13" //aliens have the health display where humans have the pressure damage indicator.
+#define ui_borg_health "14:28,6:13" //borgs have the health display where humans have the pressure damage indicator.
+#define ui_alien_health "14:28,6:13" //aliens have the health display where humans have the pressure damage indicator.
 
 //Pop-up inventory
 #define ui_shoes "2:8,1:5"
