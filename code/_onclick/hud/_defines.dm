@@ -14,16 +14,16 @@
 */
 
 //Upper left action buttons, displayed when you pick up an item that has this enabled.
-#define ui_action_slot1 "1:6,14:26"
-#define ui_action_slot2 "2:8,14:26"
-#define ui_action_slot3 "3:10,14:26"
-#define ui_action_slot4 "4:12,14:26"
-#define ui_action_slot5 "5:14,14:26"
-#define ui_action_slot6 "6:16,14:26"
-#define ui_action_slot7 "7:18,14:26"
-#define ui_action_slot8 "8:20,14:26"
-#define ui_action_slot9 "9:22,14:26"
-#define ui_action_slot10 "10:24,14:26"
+#define ui_action_slot1 "1:6,14:22"
+#define ui_action_slot2 "2:8,14:22"
+#define ui_action_slot3 "3:10,14:22"
+#define ui_action_slot4 "4:12,14:22"
+#define ui_action_slot5 "5:14,14:22"
+#define ui_action_slot6 "6:16,14:22"
+#define ui_action_slot7 "7:18,14:22"
+#define ui_action_slot8 "8:20,14:22"
+#define ui_action_slot9 "9:22,14:22"
+#define ui_action_slot10 "10:24,14:22"
 
 #define ui_power_slot1 "1:6,13:24"
 #define ui_power_slot2 "2:8,13:24"

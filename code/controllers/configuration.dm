@@ -554,15 +554,15 @@
 
 		switch (name)
 			if ("address")
-				sqladdress = value
+				sqladdress = "localhost"
 			if ("port")
-				sqlport = value
+				sqlport = "value"
 			if ("database")
-				sqldb = value
+				sqldb = "gms13new"
 			if ("login")
-				sqllogin = value
+				sqllogin = "gms13admin"
 			if ("password")
-				sqlpass = value
+				sqlpass = "gms139550"
 			if ("feedback_database")
 				sqlfdbkdb = value
 			if ("feedback_login")
