@@ -427,7 +427,7 @@
 	mymob.blind.icon = 'icons/mob/screen1_full.dmi'
 	mymob.blind.icon_state = "blackimageoverlay"
 	mymob.blind.name = "blind"
-	mymob.blind.screen_loc = "1,1 to 15,15"
+	mymob.blind.screen_loc = "1,1"
 	mymob.blind.mouse_opacity = 0
 	mymob.blind.layer = 0
 
@@ -435,7 +435,7 @@
 	mymob.damageoverlay.icon = 'icons/mob/screen1_full.dmi'
 	mymob.damageoverlay.icon_state = "oxydamageoverlay0"
 	mymob.damageoverlay.name = "dmg"
-	mymob.damageoverlay.screen_loc = "1,1 to 15,15"
+	mymob.damageoverlay.screen_loc = "1,1"
 	mymob.damageoverlay.mouse_opacity = 0
 	mymob.damageoverlay.layer = 18.1 //The black screen overlay sets layer to 18 to display it, this one has to be just on top.
 
