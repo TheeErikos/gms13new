@@ -5,7 +5,7 @@
 ADDRESS localhost
 
 # MySQL server port (default is 3306)
-PORT 3306
+PORT 0
 
 # Database the population, death, karma, etc. tables may be found in
 DATABASE gms13new
@@ -23,4 +23,4 @@ FEEDBACK_PASSWORD gms139550
 
 # Track population and death statistics
 # Comment this out to disable
-ENABLE_STAT_TRACKING
+# ENABLE_STAT_TRACKING
