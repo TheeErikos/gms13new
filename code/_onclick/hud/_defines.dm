@@ -14,27 +14,27 @@
 */
 
 //Upper left action buttons, displayed when you pick up an item that has this enabled.
-#define ui_action_slot1 "1:6,14:22"
-#define ui_action_slot2 "2:8,14:22"
-#define ui_action_slot3 "3:10,14:22"
-#define ui_action_slot4 "4:12,14:22"
-#define ui_action_slot5 "5:14,14:22"
-#define ui_action_slot6 "6:16,14:22"
-#define ui_action_slot7 "7:18,14:22"
-#define ui_action_slot8 "8:20,14:22"
-#define ui_action_slot9 "9:22,14:22"
-#define ui_action_slot10 "10:24,14:22"
+#define ui_action_slot1 "1:6,14:26"
+#define ui_action_slot2 "2:8,14:26"
+#define ui_action_slot3 "3:10,14:26"
+#define ui_action_slot4 "4:12,14:26"
+#define ui_action_slot5 "5:14,14:26"
+#define ui_action_slot6 "6:16,14:26"
+#define ui_action_slot7 "7:18,14:26"
+#define ui_action_slot8 "8:20,14:26"
+#define ui_action_slot9 "9:22,14:26"
+#define ui_action_slot10 "10:24,14:26"
 
-#define ui_power_slot1 "1:6,13:24"
-#define ui_power_slot2 "2:8,13:24"
-#define ui_power_slot3 "3:10,13:24"
-#define ui_power_slot4 "4:12,13:24"
-#define ui_power_slot5 "5:14,13:24"
-#define ui_power_slot6 "6:16,13:24"
-#define ui_power_slot7 "7:18,13:24"
-#define ui_power_slot8 "8:20,13:24"
-#define ui_power_slot9 "9:22,13:24"
-#define ui_power_slot10 "10:24,13:24"
+#define ui_power_slot1 "1:6,13:28"
+#define ui_power_slot2 "2:8,13:28"
+#define ui_power_slot3 "3:10,13:28"
+#define ui_power_slot4 "4:12,13:28"
+#define ui_power_slot5 "5:14,13:28"
+#define ui_power_slot6 "6:16,13:28"
+#define ui_power_slot7 "7:18,13:28"
+#define ui_power_slot8 "8:20,13:28"
+#define ui_power_slot9 "9:22,13:28"
+#define ui_power_slot10 "10:24,13:28"
 
 //Middle left indicators
 #define ui_alienplasmadisplay "1,6:13"
@@ -54,7 +54,6 @@
 #define ui_swaphand2 "8:16,2:5"
 #define ui_storage1 "9:18,1:5"
 #define ui_storage2 "10:20,1:5"
-
 #define ui_pda "11:22,1:5"
 
 #define ui_alien_head "4:12,1:5"	//aliens
@@ -71,7 +70,7 @@
 #define ui_monkey_back "6:14,1:5"	//monkey
 
 //Lower right, persistant menu
-//#define ui_dropbutton "11:22,1:5"
+#define ui_dropbutton "11:22,1:5"
 #define ui_drop_throw "14:28,2:7"
 #define ui_pull_resist "13:26,2:7"
 #define ui_acti "13:26,1:5"
