@@ -5,16 +5,16 @@
 ADDRESS localhost
 
 # MySQL server port (default is 3306)
-PORT 0
+PORT 3306
 
 # Database the population, death, karma, etc. tables may be found in
-DATABASE gms13new
+DATABASE GMS13NEWDATA
 
 # Username/Login used to access the database
-LOGIN gms13admin
+LOGIN GMS13ADMIN
 
 # Password used to access the database
-PASSWORD gms139550
+PASSWORD GMS139550
 
 # The following information is for feedback tracking via the blackbox server
 FEEDBACK_DATABASE gms13new
@@ -23,4 +23,4 @@ FEEDBACK_PASSWORD gms139550
 
 # Track population and death statistics
 # Comment this out to disable
-# ENABLE_STAT_TRACKING
+ENABLE_STAT_TRACKING
