@@ -8,4 +8,6 @@
 <br>
 <h1><a href="http://gammastation13.net/index.php">New Server Website! Click Here!</a></h1>
 <br>
+<h2><a http://www.gammastation13.net/index.php?topic=13.0">Severs Features/Planned Features Here!</a></h2>
+<br>
 Have Fun!
