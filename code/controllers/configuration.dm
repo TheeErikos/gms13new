@@ -556,7 +556,7 @@
 			if ("address")
 				sqladdress = "localhost"
 			if ("port")
-				sqlport = "value"
+				sqlport = value
 			if ("database")
 				sqldb = "gms13new"
 			if ("login")
