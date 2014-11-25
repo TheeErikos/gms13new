@@ -560,13 +560,13 @@
 			if ("database")
 				sqldb = "tgstation"
 			if ("login")
-				sqllogin = "GammaAdmin"
+				sqllogin = "gms13game"
 			if ("password")
-				sqlpass = "Gamma9550"
+				sqlpass = "gms139550"
 			if ("feedback_database")
 				sqlfdbkdb = "GameFeedbackDB"
 			if ("feedback_login")
-				sqlfdbklogin = "gms13admin"
+				sqlfdbklogin = "gms13feed"
 			if ("feedback_password")
 				sqlfdbkpass = "gms139550"
 			if ("enable_stat_tracking")
