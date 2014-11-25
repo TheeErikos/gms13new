@@ -241,16 +241,16 @@ var/list/awaydestinations = list()	//a list of landmarks that the warpgate can t
 var/sqladdress = "localhost"
 var/sqlport = "3306"
 var/sqldb = "tgstation"
-var/sqllogin = "root"
-var/sqlpass = ""
+var/sqllogin = "GammaAdmin"
+var/sqlpass = "Gamma9550"
 
 	// Feedback gathering sql connection
 
-var/sqlfdbkdb = "test"
-var/sqlfdbklogin = "root"
-var/sqlfdbkpass = ""
+var/sqlfdbkdb = "GameFeedbackDB"
+var/sqlfdbklogin = "gms13admin"
+var/sqlfdbkpass = "gms139550"
 
-var/sqllogging = 0 // Should we log deaths, population stats, etc?
+var/sqllogging = 1 // Should we log deaths, population stats, etc?
 
 
 
