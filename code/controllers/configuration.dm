@@ -554,21 +554,21 @@
 
 		switch (name)
 			if ("address")
-				sqladdress = value
+				sqladdress = "localhost"
 			if ("port")
-				sqlport = value
+				sqlport = 3306
 			if ("database")
-				sqldb = value
+				sqldb = "tgstation"
 			if ("login")
-				sqllogin = value
+				sqllogin = "GammaAdmin"
 			if ("password")
-				sqlpass = value
+				sqlpass = "Gamma9550"
 			if ("feedback_database")
-				sqlfdbkdb = value
+				sqlfdbkdb = "GameFeedbackDB"
 			if ("feedback_login")
-				sqlfdbklogin = value
+				sqlfdbklogin = "gms13admin"
 			if ("feedback_password")
-				sqlfdbkpass = value
+				sqlfdbkpass = "gms139550"
 			if ("enable_stat_tracking")
 				sqllogging = 1
 			else
