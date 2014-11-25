@@ -8,17 +8,17 @@ ADDRESS localhost
 PORT 3306
 
 # Database the population, death, karma, etc. tables may be found in
-DATABASE GMS13NEWDATA
+DATABASE tgstation
 
 # Username/Login used to access the database
-LOGIN GMS13ADMIN
+LOGIN GammaAdmin
 
 # Password used to access the database
-PASSWORD GMS139550
+PASSWORD Gamma9550
 
 # The following information is for feedback tracking via the blackbox server
-FEEDBACK_DATABASE gms13new
-FEEDBACK_LOGIN gms13admin
+FEEDBACK_DATABASE GameFeedbackDB
+FEEDBACK_LOGIN gms13feed
 FEEDBACK_PASSWORD gms139550
 
 # Track population and death statistics
